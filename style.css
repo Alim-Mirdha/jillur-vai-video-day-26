@@ -52,6 +52,14 @@ html{
     background-size: cover;
     padding: 200px 0;
 }
+.banner h2 {
+    width: 429px;
+    border-radius: 5px;
+}
+.banner h3 {
+    width: 400px;
+    border-radius: 5px;
+}
 /* banner area end */
 /* about area start */
 .about{
