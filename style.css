@@ -1,0 +1,119 @@
+/* default css */
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.form-control:focus {
+   
+    border-color: none;
+    box-shadow: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* default css */
+/* header area start */
+.header{
+    background-color: #3498db;
+}
+.header-logo img {
+    height: 57px;
+}
+
+.main-menu{}
+.main-menu ul {
+    margin-bottom: 0;
+    text-align: right;
+}
+.main-menu ul li {
+    display: inline-block;
+    margin-right: -4px;
+}
+.main-menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 57px;
+    display: inline-block;
+    border-right: 1px solid;
+}
+/* header area end */
+/* banner area start */
+.banner{
+    background: url(https://i.ibb.co/QJR9tQR/slider.png) no-repeat top center;
+    background-size: cover;
+    padding: 200px 0;
+}
+/* banner area end */
+/* about area start */
+.about{
+    background-color: #1abc9c63;
+}
+/* about area end */
+/* services area start */
+
+.services{
+    background-color: #f9f9f9;
+}
+.item span {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    background: #2980b9;
+    line-height: 40px;
+    border-radius: 10px 0;
+    font-size: 24px;
+    color: #f1c40f;
+}
+/* services area end */
+.product-item img {
+    width: 178px;
+}
+/* product area start */
+
+.product-right h2 {
+    border-bottom: 2px solid #e9b3b3;
+}
+.product-right ul{
+    padding-left: 0;
+}
+.product-right ul li {
+    background: #dddddd75;
+    margin-bottom: 5px;
+    padding: 6px;
+    font-size: 19px;
+}
+/* product area end */
+
+.contact-form input {
+    margin-bottom: 10px;
+}
+
+
+
+
+.socail-menu ul {
+    margin-bottom: 0;
+}
+.socail-menu ul li {
+    display: inline-block;
+}
+.socail-menu ul li a {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.footer p {
+    margin: 0;
+}
